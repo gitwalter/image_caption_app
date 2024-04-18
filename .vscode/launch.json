@@ -10,7 +10,7 @@
         },
         {
             "name": "Streamlit",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "C://App/Anaconda/Lib/site-packages/streamlit/",
             "args": [
