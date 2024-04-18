@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Streamlit",
+            "type": "python",
+            "request": "launch",
+            "program": "C://App/Anaconda/Lib/site-packages/streamlit/",
+            "args": [
+                "run",
+                "${file}"
+            ]
+        }        
+    ]
+}
