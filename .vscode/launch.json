@@ -9,14 +9,12 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Streamlit",
-            "type": "debugpy",
+            "name": "streamlit debug",
+            "type": "python",
             "request": "launch",
-            "program": "C://App/Anaconda/Lib/site-packages/streamlit/",
-            "args": [
-                "run",
-                "${file}"
-            ]
+            "module": "streamlit",
+            "args": ["run", "${file}"],
+            "justMyCode": true,
         }        
     ]
 }

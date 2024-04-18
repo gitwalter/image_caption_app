@@ -1,7 +1,8 @@
-import streamlit as st
 import torch
 from transformers import pipeline, Blip2Processor, Blip2ForConditionalGeneration
 from PIL import Image
+import streamlit as st
+
 
 @st.cache_resource
 def load_blip2_model():
