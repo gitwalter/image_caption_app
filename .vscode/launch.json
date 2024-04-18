@@ -9,7 +9,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "streamlit debug",
+            "name": "Streamlit",
             "type": "python",
             "request": "launch",
             "module": "streamlit",
